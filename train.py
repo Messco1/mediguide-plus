@@ -88,7 +88,7 @@ optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 # ============================================================
 # 5. Boucle d'entraînement
 # ============================================================
-EPOCHS = 10
+EPOCHS = 20
 best_val_acc = 0
 history = {'train_loss': [], 'val_loss': [], 'train_acc': [], 'val_acc': []}
 
